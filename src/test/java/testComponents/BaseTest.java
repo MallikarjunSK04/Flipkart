@@ -39,8 +39,7 @@ public class BaseTest {
 		
 		
 		if(browserName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.logfile", "chromedriver.log");
-	        System.setProperty("webdriver.chrome.loglevel", "INFO");
+			
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
