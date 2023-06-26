@@ -1,0 +1,5 @@
+pageClasses\CartPage.class
+abstractComponents\AbstractReuseMethods.class
+pageClasses\HomePage.class
+pageClasses\LogInPage.class
+pageClasses\OrderPalcePage.class
