@@ -1,9 +1,6 @@
 package testComponents;
 
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;

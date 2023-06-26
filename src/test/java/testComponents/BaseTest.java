@@ -3,16 +3,12 @@ package testComponents;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
 
 import org.apache.commons.io.FileUtils;
-import org.bouncycastle.asn1.dvcs.Data;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
