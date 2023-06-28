@@ -84,9 +84,9 @@ public class BaseTest {
 	public String getScreenShot(String testCaseName, WebDriver driver) throws IOException {
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File scr = ts.getScreenshotAs(OutputType.FILE);
-		File des = new File(System.getProperty("user.dir")+"\\reports\\"+testCaseName+".png");
+		File des = new File(System.getProperty("user.dir")+"\\screenshots\\"+testCaseName+".png");
 		FileUtils.copyFile(scr, des);
-		return System.getProperty("user.dir")+"\\reports\\"+testCaseName+".png";
+		return System.getProperty("user.dir")+"\\screenshots\\"+testCaseName+".png";
 		
 	}
 
